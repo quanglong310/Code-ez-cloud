@@ -1,0 +1,133 @@
+body{
+    background: url(Frame.svg) #01265d;
+    background-size:auto;
+    background-position:center ;
+    background-repeat: no-repeat;
+    font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 30px;
+    color: #404040;
+    
+}
+
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-login{
+    max-width: 400px;
+    background: rgba(255, 255, 255, 1);
+    flex-grow: 1;   
+    border-radius: 10px;
+    padding: 10px;
+    height: 432px;
+    width: 400px;
+    
+}
+    
+.form-input{
+    height: 37.88px; 
+    width: 358px;
+    text-indent: 10px;
+    border-radius: 7px;
+    border: 1px #aaa solid;
+    color: #aaa;
+    font-size: 15px;
+    margin-left: 16px;
+
+}
+.form-label{
+    margin-left: 16px;
+}
+    
+.form-group1{
+    margin-bottom: 10px;
+}
+.form-group2{
+    margin-bottom: 6px;
+    
+}
+
+.quenmatkhau{
+    text-align: right;
+    text-decoration: none;
+}
+
+.form-check{
+    width: 358px;
+    height: 20.3px;
+    color: rgb(109, 108, 108);
+    margin-bottom: 18px;
+    margin-left: 16px;
+}
+.form-checkbutton{
+    width: 19px;
+    height: 19px;
+    border: 1px #bebcbc;   
+}
+.btn-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 358px;
+    height: 37.6px;
+    margin-left: 16px;
+}
+.dangki{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 358px;
+    height: 38px;    
+}
+.dang_ki{
+    margin-left: 16px;
+}
+.btn-login{
+    background-color: #0344a6;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.dangki{
+    border: none;
+    background-color: #ffffff;
+    color: #0344a6;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+.email{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.form-password{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 24px;
+}
+.form-ch{
+    vertical-align: top;
+}
+
+.trogiup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-help{
+    text-align: right;
+    text-decoration: none;
+}

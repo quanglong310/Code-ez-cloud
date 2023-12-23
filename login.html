@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>ez CloudID</title>
 </head>
 <body>
+  <div id="like_button_container">
     <div id="wrapper">
         <form action="" id="form-login">
             <div class="logo">
                 <a href="/" class="brand-logo">
-                    <img src="ezCloud3.svg" >
+                    <img src="./assets/img/ezCloud3.svg" >
                 </a>
                 <h3 class="form-heading"> Đăng nhập </h3>
             </div>
@@ -43,21 +44,21 @@
                 <a class="dangki" name="button" value="dangki" href="">Đăng ký</a> 
             </p>
         </form>
-        
-    </div>
-    <div class="trogiup">
-        <div class="language">
-            <form action="" id="laguage">
-                <div class="btn-group">
-                    <button type="button" class="btn_laguage">Tiếng Việt</button>
-                </div>
-            </form>
-        </div>
-        <div class="btn-help">    
-            Trợ giúp&nbsp;-&nbsp;
-            <a class="help" href="#">Điều khoản sử dụng</a>
-        </div>
-    </div>
+      </div>
+      <div class="trogiup">
+          <div class="language">
+              <form action="" id="laguage">
+                  <div class="btn-group">
+                      <button type="button" class="btn_laguage"> Tiếng Việt  </button>
+                  </div>
+              </form>
+          </div>
+          <div class="btn-help">    
+              Trợ giúp&nbsp;-&nbsp;
+              <a class="help" href="#">Điều khoản sử dụng</a>
+          </div>
+      </div>
+  </div>  
 
     <div class="container">
         <div class="row">
@@ -67,21 +68,24 @@
                 <p>
                     Tầng 8, Tòa nhà LADECO, 266 Đội Cấn, Ba Đình, Hà Nội, Việt Nam 
                     <a href="" class="email">
-                        <img src="email.svg">
+                        <img src="./assets/img/email.svg">
                         hotro@ezcloud.vn
                     </a>
                     <a>
-                        <img src="phone.svg">
+                        <img src="./assets/img/phone.svg">
                         19006159
                     </a>
                 </p>
                 <p>
-                    <a href=""><img src="cloud.svg"></a>
-                    <a href=""><img src="fb.svg"></a>
-                    <a href=""><img src="youtube.svg"></a>
+                    <a href=""><img src="./assets/img/cloud.svg"></a>
+                    <a href=""><img src="./assets/img/fb.svg"></a>
+                    <a href=""><img src="./assets/img/youtube.svg"></a>
                 </p>
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="like_button.js"></script>
 </body>
 </html>

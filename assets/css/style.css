@@ -1,5 +1,5 @@
 body {
-    background: url(Frame.svg) #01265d;
+    background: url(assets/img/Frame.svg) #01265d;
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@ body {
     font-size: 17px;
     line-height: 30px;
     color: #404040;
-
+    word-wrap: break-word 
 }
 
 #wrapper {
@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    word-wrap: break-word
 }
 
 #form-login {
@@ -50,14 +51,16 @@ body {
 
 .logo {
     font-size: 23px;
-    text-align: center" 
-
+    text-align: center;
+    word-wrap: break-word
 }
 
 .brand-logo {
-    margin-top: 20px;
+    display: block;
     height: "60px";
-    width: "358px"
+    width: "358px";
+    margin: 0 auto;
+    text-align: center;
 }
 
 .form-label {
@@ -157,11 +160,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .btn-help {
     text-align: right;
     text-decoration: none;
+    justify-content: end;
 }
 
 .help {
